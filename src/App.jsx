@@ -1,12 +1,16 @@
 import AboutMe from "./components/aboutme/AboutMe"
 import Header from "./components/header/Header"
+import Projects from "./components/projects/Projects"
 import './index.css'
 
 const App = () => {
   return (
-    <div className="website-layout">
+    <div>
       <Header />
-      <AboutMe />
+      <div className="website-layout">
+        <AboutMe />
+        <Projects />
+      </div>
     </div>
   )
 }

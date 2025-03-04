@@ -41,7 +41,7 @@ const Header = () => {
                 })}
             </ul>
 
-            <button><MdSunny />
+            <button className='header-button'><MdSunny />
             </button>
         </header>
     )
