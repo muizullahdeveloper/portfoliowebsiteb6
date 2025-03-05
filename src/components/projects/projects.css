@@ -5,6 +5,8 @@
 
 }
 
+
+
 .cardPicture img {
     height: 100%;
     width: 100%;
@@ -22,9 +24,32 @@
 }
 
 
-.card-ui {
+.card-ui,
+.education-card-ui {
     border: 2px solid rgb(101, 101, 101);
     padding: 1rem;
     border-radius: 1rem;
     background-color: rgb(229, 229, 229);
+}
+
+.education-card-ui {
+    background-color: rgb(242, 242, 242);
+}
+
+.card-btn-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-btn {
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    background-color: rgb(55, 55, 55);
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    color: whitesmoke;
+    cursor: pointer;
 }

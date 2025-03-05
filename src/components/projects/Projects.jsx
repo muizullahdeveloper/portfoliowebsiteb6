@@ -7,6 +7,7 @@ const Projects = () => {
 
     const projectData = [
         {
+
             projectPicture: projectPictur1,
             projectTitle: "ECommerceWeb",
             projectDesc: "This is a eCommerce platform",
@@ -14,6 +15,7 @@ const Projects = () => {
             projectCode: "https://github.com/MuhammadZohaib28/figmatoreact"
         },
         {
+
             projectPicture: projectPictur1,
             projectTitle: "ECommerceWeb",
             projectDesc: "This is a eCommerce platform",
@@ -21,6 +23,7 @@ const Projects = () => {
             projectCode: "https://github.com/MuhammadZohaib28/figmatoreact"
         },
         {
+
             projectPicture: projectPictur1,
             projectTitle: "Traveling Website",
             projectDesc: "This is a eCommerce platform",
@@ -28,6 +31,7 @@ const Projects = () => {
             projectCode: "https://github.com/MuhammadZohaib28/figmatoreact"
         },
         {
+
             projectPicture: projectPictur1,
             projectTitle: "Traveling Website",
             projectDesc: "This is a eCommerce platform",
@@ -35,6 +39,7 @@ const Projects = () => {
             projectCode: "https://github.com/MuhammadZohaib28/figmatoreact"
         },
         {
+
             projectPicture: projectPictur1,
             projectTitle: "Traveling Website",
             projectDesc: "This is a eCommerce platform",
@@ -72,7 +77,7 @@ const Projects = () => {
     ]
 
     return (
-        <div>
+        <div className='projects'>
             <h1>Projects</h1>
 
             <div className='projectCards'>
@@ -84,6 +89,8 @@ const Projects = () => {
                             projectDesc={item.projectDesc}
                             projectLiveUrl={item.projectLiveUrl}
                             projectCode={item.projectCode}
+                            yearVisible={false}
+                            pictureVisible={true}
 
                         />
                     )

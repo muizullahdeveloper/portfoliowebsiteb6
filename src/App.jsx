@@ -1,4 +1,5 @@
 import AboutMe from "./components/aboutme/AboutMe"
+import Education from "./components/education/Education"
 import Header from "./components/header/Header"
 import Projects from "./components/projects/Projects"
 import './index.css'
@@ -10,6 +11,7 @@ const App = () => {
       <div className="website-layout">
         <AboutMe />
         <Projects />
+        <Education />
       </div>
     </div>
   )

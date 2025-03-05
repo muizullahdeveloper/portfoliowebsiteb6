@@ -3,15 +3,24 @@ import React from 'react'
 const Card = (props) => {
     return (
 
-        <div className='card-ui'>
-            <div className='cardPicture'>
-                <img src={props.projectPicture} />
-            </div>
+        <div className={props.pictureVisible ? 'card-ui' : 'education-card-ui'}>
+            {props.pictureVisible &&
+                <div className='cardPicture'>
+                    <img src={props.projectPicture} />
+                </div>
+            }
+
             <h1>{props.projectTitle}</h1>
             <p>{props.projectDesc}</p>
-            <div>
-                <button onClick={props.projectLiveUrl}>Live</button>
-                <button onClick={props.projectCode}>Code</button>
+            {props.yearVisible && <span>{props.year}</span>}
+            <div className='card-btn-main'>
+                <a  href={props.projectLiveUrl} target='_blank'>
+                    <button className='card-btn' >Live</button>
+                </a>
+
+                <a  href={props.projectCode} target='_blank'>
+                    <button className='card-btn' >Code</button>
+                </a>
             </div>
         </div>
 
