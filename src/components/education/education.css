@@ -1,3 +1,5 @@
-.education{
+.education {
     height: calc(100vh - 3rem);
+    background-color: #C4D9FF;
+    padding: 3.5rem 3rem
 }

@@ -34,6 +34,7 @@ const Education = () => {
                             yearVisible={true}
                             projectTitle={i.educationLevel}
                             year={i.year}
+                            isButtonVisible={false}
 
                         />
                     )

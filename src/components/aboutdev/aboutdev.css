@@ -1,0 +1,27 @@
+.aboutdev {
+    background-color: #F8FAFC;
+    padding: 3.5rem 3rem;
+}
+
+.aboutdev-lr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.aboutdev-r {
+    width: 60%;
+}
+
+
+@media (min-width: 270px) and (max-width: 460px) {
+    .aboutdev-lr {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+}

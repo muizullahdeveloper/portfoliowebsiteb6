@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Card = (props) => {
+
     return (
 
         <div className={props.pictureVisible ? 'card-ui' : 'education-card-ui'}>
@@ -13,15 +14,19 @@ const Card = (props) => {
             <h1>{props.projectTitle}</h1>
             <p>{props.projectDesc}</p>
             {props.yearVisible && <span>{props.year}</span>}
-            <div className='card-btn-main'>
-                <a  href={props.projectLiveUrl} target='_blank'>
-                    <button className='card-btn' >Live</button>
-                </a>
 
-                <a  href={props.projectCode} target='_blank'>
-                    <button className='card-btn' >Code</button>
-                </a>
-            </div>
+            {props.isButtonVisible &&
+                <div className='card-btn-main'>
+                    <a href={props.projectLiveUrl} target='_blank'>
+                        <button className='card-btn' >Live</button>
+                    </a>
+
+                    <a href={props.projectCode} target='_blank'>
+                        <button className='card-btn' >Code</button>
+                    </a>
+                </div>
+            }
+
         </div>
 
     )

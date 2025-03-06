@@ -91,7 +91,7 @@ const Projects = () => {
                             projectCode={item.projectCode}
                             yearVisible={false}
                             pictureVisible={true}
-
+                            isButtonVisible={true}
                         />
                     )
                 })}

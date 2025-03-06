@@ -1,3 +1,4 @@
+import AboutDev from "./components/aboutdev/AboutDev"
 import AboutMe from "./components/aboutme/AboutMe"
 import Education from "./components/education/Education"
 import Header from "./components/header/Header"
@@ -10,6 +11,7 @@ const App = () => {
       <Header />
       <div className="website-layout">
         <AboutMe />
+        <AboutDev />
         <Projects />
         <Education />
       </div>

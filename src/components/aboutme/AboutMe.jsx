@@ -15,7 +15,6 @@ const AboutMe = () => {
                     <FaLinkedin />
                     <FaGithub />
                     <TbBrandFiverr />
-
                 </div>
             </div>
 
