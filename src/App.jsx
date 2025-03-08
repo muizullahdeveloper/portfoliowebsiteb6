@@ -6,6 +6,9 @@ import Projects from "./components/projects/Projects"
 import './index.css'
 
 const App = () => {
+  console.log(
+    "hello"
+  )
   return (
     <div>
       <Header />
