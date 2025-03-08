@@ -31,7 +31,7 @@ const Header = () => {
 
     return (
         <header>
-            <h1>NSF</h1>
+            <h1>Moiz</h1>
 
             <ul className='header-menuitems'>
                 {headerMenuItems.map((i, index) => {
