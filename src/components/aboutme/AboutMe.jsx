@@ -9,7 +9,7 @@ const AboutMe = () => {
             <div className='aboutme-leftsection'>
                 <h1>Frontend ReactJS Developer</h1>
 
-                <p>Hi, I'm <span>Muhammad Zohaib</span>. A passionate Front-end React Developer based in Karachi, Pakistan. 📍</p>
+                <p>Hi, I'm <span>Muizullah</span>. A passionate Front-end React Developer based in Karachi, Pakistan. 📍</p>
 
                 <div>
                     <FaLinkedin />
